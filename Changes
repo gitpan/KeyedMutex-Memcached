@@ -1,5 +1,9 @@
 Revision history for Perl extension KeyedMutex::Memcached
 
+0.03	Mon Feb 21 19:10:07 2011
+        - pass sub reference into scope_guard explicitly
+        - specify Cache::Memcached::Fast version
+
 0.02    Fri Feb 18 16:28:28 2011
         - use Time::HiRes::sleep instread of usleep
         - wait interval is rand value. So It is considered collision on retry 

@@ -12,7 +12,7 @@ test_requires 'Test::More';
 test_requires 'Test::TCP';
 test_requires 'Test::Skip::UnlessExistsExecutable';
 
-test_requires 'Cache::Memcached::Fast';
+test_requires 'Cache::Memcached::Fast', 0.19;
 test_requires 'File::Which';
 test_requires 'Proc::Guard';
 
